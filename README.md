@@ -31,10 +31,9 @@ Nosiey variables are variables that can be removed that are not adding any value
 
 ###### Compiling
 
-![Compile Model]()
+![Compile Model](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Compile_Model.PNG)
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
+The model is complied to give it proper functionality, the efficacy of the model is measured by it's accuracy as well as it's loss. The loss function given to this model is binary_crossentropy as this model is a binary classification.  We are also measuring "accuracy", so this is also passed in the complile function, the optimizer type  is optional however "adam" is the most popular and is ofter used for binary classification models
 
 ![Train Model]()
 
