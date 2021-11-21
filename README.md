@@ -47,7 +47,8 @@ The model is fitted with the scaled X data and ran with a specified number of ep
 
 The model is evaluated to determine the accuracy and loss on the traning data and test data. In the optimized model the accuracy and the loss of the model is loss: 0.5831 - accuracy: 0.7254.  
 
-![Neural Network]()
+![Neural Network](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Hyper_Hidden_Nodes.PNG)
+
 
 ![Deep Neural Network]()
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
