@@ -39,7 +39,11 @@ The model is complied to give it proper functionality, the efficacy of the model
 
 The train_test_split is called on the model as we will want to train the model on some of the data, leaving a portion for testing the efficacy of the model 
 
-![Evaluate Model]()
+![Fit the Model]()
+
+![Evaluate Model](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Evaluate_Model.PNG)
+
+The model is evaluated to determine the accuracy and loss on the traning data and test data
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
