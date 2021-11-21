@@ -15,11 +15,15 @@ In this analysis we will assist Becks, an engineer and data analysis at the well
 The target variable is the what we are predicting which is weather or not an application will be successful and is the y predictor is "Is Sucessful". This predictor is isolated by splitting it from the features
 
 ###### Features 
-![Features]()
+![Features](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Unique_Features.PNG)
  
- The features are the X values that will be used to test and train the model in order to create an alogrithm 
+ These are the unique features or x values that will be used to determine y. The features are the X values that will be used to test and train the model in order to create an alogrithm 
+
 ###### Binning
+
 ![Binning Variable]()
+
+Binning is an important part of preprocessing the data as it groups all "rare" categorical variable together and reduces the columnns to further flatten the data that will be entered into the neural network
 
 ###### Nosiey Variable What variable(s) are neither targets nor features, and should be removed from the input data?
 
