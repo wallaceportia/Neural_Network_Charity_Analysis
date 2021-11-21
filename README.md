@@ -4,13 +4,37 @@
 
 In this analysis we will assist Becks, an engineer and data analysis at the well know Alphabet Soup philanthropic organization design a neural network. Over the years Alphabet Soup has donated over 10 billion dollars to that should be used for projects such as life saving technologies and reforestation projects. It however has become painfully obvious that not all organization use the donations that they recieve in an impactful way.  the president of Alphabet Soup has tasked Becks to develope a mathematical data driven solution that can do this accurately.  Bec's has decided that due to the sophistication of this problem that it would be best to design and train a deep neural network. We will work with Becks and her team to complete the design of this network that will be used as a predictor of oranizaitons that are high risk, that is they are not using the money in the way that they should.
 
-Results: Using bulleted lists and images to support your answers, address the following questions.
+## Results: Using bulleted lists and images to support your answers, address the following questions.
 
-Data Preprocessing
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-Compiling, Training, and Evaluating the Model
+#### Data Preprocessing
+
+###### Target Variable
+
+![Target Variable]()
+
+
+The target variable is the what we are predicting which is weather or not an application will be successful and is the y predictor is "Is Sucessful"
+
+###### Features 
+![Features]()
+
+###### Binning
+![Binning Variable]()
+
+###### Nosiey Variable What variable(s) are neither targets nor features, and should be removed from the input data?
+
+
+###### Compiling
+
+![Compile Model]()
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Were you able to achieve the target model performance?
+
+![Train Model]()
+
+![Evaluate Model]()
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
