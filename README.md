@@ -21,12 +21,15 @@ The target variable is the what we are predicting which is weather or not an app
 
 ###### Binning
 
-![Binning Variable]()
+![Binning Variable](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Binning_2.PNG)
 
-Binning is an important part of preprocessing the data as it groups all "rare" categorical variable together and reduces the columnns to further flatten the data that will be entered into the neural network
+Binning is an important part of preprocessing the data as it groups all "rare" categorical variable together in an "Other" columnn this, in turn reduces the columnns to further flatten the data that will be entered into the neural network
 
 ###### Nosiey Variable What variable(s) are neither targets nor features, and should be removed from the input data?
 
+![Nosiey Variable]()
+
+Nosiey variables are variables that can be removed that are not adding any value to to the data set.  In this set the column "Status" was removed. 
 
 ###### Compiling
 
