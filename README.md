@@ -27,8 +27,6 @@ Binning is an important part of preprocessing the data as it groups all "rare" c
 
 ###### Nosiey Variable What variable(s) are neither targets nor features, and should be removed from the input data?
 
-![Nosiey Variable]()
-
 Nosiey variables are variables that can be removed that are not adding any value to to the data set.  In this set the column "Status" was removed. 
 
 ###### Compiling
