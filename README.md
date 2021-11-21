@@ -50,14 +50,17 @@ The model is evaluated to determine the accuracy and loss on the traning data an
 ![Neural Network](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Hyper_Hidden_Nodes.PNG)
 
 
-![Deep Neural Network]()
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-Summary:
+![Deep Neural Network](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Hyper_Leaky.PNG)
 
-The model performance of over 75% was not achieved. To improve the performance of the model, several measures were taken in terms of tweaking the hyperparameters.  the batch size was decreased to 100.  Several different activation functions were also tried, including leaky_relu.  
+* Three layers were added to the deep neural network. Although three layers is recommended for more complexed data that is data having large dimentions, it seemed best to try 3 hidden layers as two layers did not bring about a great difference in performance
+* For the first layer 36 nodes were added because it is recommended that the first layer of nodes should be half the number of features of less.  Although there are 109 features, this number of neurons did not work well for this model
+* The second layer contained 8 neurons.  This number of neurons was used as to avoid over powering the model, although in the second layer as much as half the number of the first layer could be used
+* In the third layer only one neuron was used.
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+## Summary:
+
+The model performance of over 75% was not achieved. To improve the performance of the model, several measures were taken in terms of tweaking the hyperparameters.  the batch size was decreased to 100.  Several different activation functions were also tried, including leaky_relu and tanh.  
 
 * Leaky_relu was tried as it helps to increase the range of the ReLU function usually, the value of a is 0.01 or so.
 * The tanh activation function was used because tanh is also like logistic sigmoid but may fuction slightly better as the range of the tanh function is from (-1 to 1)
@@ -65,4 +68,4 @@ The model performance of over 75% was not achieved. To improve the performance o
 
 All in all the different tweaks did not cause any type of significant improvement in the results except by a few points. I will recommend that more data be collected to improve the model as neural networks function best with larger data sets. It is possible that a Random Forest would have given better results with this data.  I would have recommended using a Random Forest Model for this data. I
 
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+
