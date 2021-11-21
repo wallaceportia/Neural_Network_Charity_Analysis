@@ -35,7 +35,9 @@ Nosiey variables are variables that can be removed that are not adding any value
 
 The model is complied to give it proper functionality, the efficacy of the model is measured by it's accuracy as well as it's loss. The loss function given to this model is binary_crossentropy as this model is a binary classification.  We are also measuring "accuracy", so this is also passed in the complile function, the optimizer type  is optional however "adam" is the most popular and is ofter used for binary classification models
 
-![Train Model]()
+![Train Model](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Train_Test_Split.PNG)
+
+The train_test_split is called on the model as we will want to train the model on some of the data, leaving a portion for testing the efficacy of the model 
 
 ![Evaluate Model]()
 
