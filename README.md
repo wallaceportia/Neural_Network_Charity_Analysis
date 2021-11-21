@@ -10,14 +10,14 @@ In this analysis we will assist Becks, an engineer and data analysis at the well
 
 ###### Target Variable
 
-![Target Variable]()
+![Target Variable](https://github.com/wallaceportia/Neural_Network_Charity_Analysis/blob/main/Resources/Resource_pics/Split_feature_target.PNG)
 
-
-The target variable is the what we are predicting which is weather or not an application will be successful and is the y predictor is "Is Sucessful"
+The target variable is the what we are predicting which is weather or not an application will be successful and is the y predictor is "Is Sucessful". This predictor is isolated by splitting it from the features
 
 ###### Features 
 ![Features]()
-
+ 
+ The features are the X values that will be used to test and train the model in order to create an alogrithm 
 ###### Binning
 ![Binning Variable]()
 
